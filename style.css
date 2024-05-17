@@ -10027,6 +10027,9 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: auto;
+    max-width: 200px; /* Set your desired maximum width */
+    max-height: 150px /* Set your desired maximum height */
+    object-fit: contain; /* Maintain aspect ratio */ 
 }
 
 .media-box .fbox-media iframe { display: block; }
