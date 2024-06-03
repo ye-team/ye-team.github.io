@@ -10027,6 +10027,9 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: auto; 
+    max-width: 300px;/* Adjust this value as needed */
+    max-height: 150px; 
+    object-fit: cover;
 }
 
 .media-box .fbox-media iframe { display: block; }
@@ -10053,8 +10056,11 @@ body:not(.device-touch) .button.button-full strong {
 /* Image resize
 -----------------------------------------------------------------*/
 .resize {
-    width: 1200px;
-    height: 675px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;/* Adjust this value as needed */
+    max-height: 150px; 
+    object-fit: cover;
 }
 
 
