@@ -10026,9 +10026,9 @@ body:not(.device-touch) .button.button-full strong {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: auto; 
-    max-width: 300px;/* Adjust this value as needed */
-    max-height: 150px; 
+	height: 150%; 
+    max-width: 1200px;/* Adjust this value as needed */
+    max-height: 675px; 
     object-fit: cover;
 }
 
