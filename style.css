@@ -2712,6 +2712,24 @@ img.lazy:not([src]) {
 
 .section:hover .revealer-image { bottom: -50px; }
 
+/* ----------------------------------------------------------------
+	mobile phone padding to avoid right next to the edge of the phone?
+-----------------------------------------------------------------*/
+.padding-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:992px) {
+    .padding-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
 
 /* ----------------------------------------------------------------
 	Columns & Grids
@@ -10004,6 +10022,22 @@ body:not(.device-touch) .button.button-full strong {
 	-ms-transform: scale(1);
 	transform: scale(1);
 	opacity: 1;
+}
+
+
+/* smaller media fox? 
+-----------------------------------------------------------------*/
+.fbox-media-small img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-box-small {
+    text-align: center;
+}
+
+.feature-box-small .fbox-media-small {
+    margin-bottom: 20px;
 }
 
 
