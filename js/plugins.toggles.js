@@ -27,3 +27,20 @@ window.SEMICOLON_togglesInit = function( $toggleEl ){
 
 };
 
+
+
+
+function toggleInfo(moreInfoId) {
+    const moreInfo = document.getElementById(moreInfoId);
+    const arrow = document.querySelector(`.expandable.arrow[onclick="toggleInfo('${moreInfoId}')"]`);
+    if (moreInfo.style.display === 'none' || moreInfo.style.display === '') {
+        moreInfo.style.display = 'block';
+        arrow.classList.add('expanded');
+    } else {
+        moreInfo.style.display = 'none';
+        arrow.classList.remove('expanded');
+    }
+}
+
+
+
