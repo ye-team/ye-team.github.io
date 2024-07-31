@@ -102,6 +102,20 @@
 
 
 /* ----------------------------------------------------------------
+	360-panoramic view
+-----------------------------------------------------------------*/
+/* Ensure the container for the panorama viewer has a fixed height */
+#panorama-360-view {
+    width: 100%;
+    height: 400px; /* Adjust this height as needed */
+}
+
+/* Optional: Style for other elements in your project */
+.container {
+    padding: 15px;
+}
+
+/* ----------------------------------------------------------------
 	expandable arrow and bullet ppoint indent
 -----------------------------------------------------------------*/
 .expandable {
